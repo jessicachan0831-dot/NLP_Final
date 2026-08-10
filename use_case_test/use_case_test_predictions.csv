@@ -1,0 +1,101 @@
+id,text,context,final_label,model_prediction,predicted_label_name,prob_not_sarcastic,prob_sarcastic,confidence,correct,context_dependency
+1,"Oh great, another app update that logs me out.",,1,1,sarcastic,0.1798640489578247,0.8201359510421753,0.8201359510421753,1,independent
+2,Love waiting forty minutes for a two-minute support chat.,,1,1,sarcastic,0.14741134643554688,0.8525886535644531,0.8525886535644531,1,independent
+3,"Perfect, the checkout crashed right after I entered everything.",,1,0,not_sarcastic,0.9435005895793438,0.056499410420656204,0.9435005895793438,0,independent
+4,Amazing service—you canceled my order twice. 👏,,1,1,sarcastic,0.17170000076293945,0.8282999992370605,0.8282999992370605,1,independent
+5,Exactly what I needed today: another password reset.,,1,1,sarcastic,0.27161240577697754,0.7283875942230225,0.7283875942230225,1,independent
+6,"Nice, the bot sent me the same useless link again.",,1,0,not_sarcastic,0.9870329033583403,0.012967096641659737,0.9870329033583403,0,independent
+7,"Wow, charging me twice was super helpful.",,1,1,sarcastic,0.005596756935119629,0.9944032430648804,0.9944032430648804,1,independent
+8,"Fantastic, my delivery is only three days late.",,1,1,sarcastic,0.33915674686431885,0.6608432531356812,0.6608432531356812,1,independent
+9,"Sure, because restarting it for the fifth time will fix everything.",,1,1,sarcastic,0.004097163677215576,0.9959028363227844,0.9959028363227844,1,independent
+10,Thanks for closing my ticket without solving it 🙂,,1,1,sarcastic,0.05177319049835205,0.948226809501648,0.948226809501648,1,independent
+11,Could this website be any faster? I almost saw it load.,,1,0,not_sarcastic,0.8431421667337418,0.15685783326625824,0.8431421667337418,0,independent
+12,Great job hiding the unsubscribe button.,,1,1,sarcastic,0.00613325834274292,0.9938667416572571,0.9938667416572571,1,independent
+13,Nothing says convenience like verifying my identity six times.,,1,1,sarcastic,0.2895905375480652,0.7104094624519348,0.7104094624519348,1,independent
+14,Love that 'instant refund' apparently means next month.,,1,1,sarcastic,0.20989829301834106,0.7901017069816589,0.7901017069816589,1,independent
+15,"Brilliant idea, send the replacement to the wrong address too.",,1,1,sarcastic,0.29123175144195557,0.7087682485580444,0.7087682485580444,1,independent
+16,"Ten out of ten, would enjoy this error message again.",,1,0,not_sarcastic,0.8936134278774261,0.10638657212257385,0.8936134278774261,0,independent
+17,"Yay, another notification I can't turn off!",,1,1,sarcastic,0.006129741668701172,0.9938702583312988,0.9938702583312988,1,independent
+18,"Awesome, the coupon expired while your page was frozen.",,1,0,not_sarcastic,0.7174358367919922,0.2825641632080078,0.7174358367919922,0,independent
+19,Super clear instructions—if the goal was confusion.,,1,0,not_sarcastic,0.6963247060775757,0.3036752939224243,0.6963247060775757,0,independent
+20,"Thanks, I definitely wanted to repeat my whole story.",,1,1,sarcastic,0.42270082235336304,0.577299177646637,0.577299177646637,1,independent
+21,"Well, that went smoothly.",The checkout froze just before the payment confirmation.,1,1,sarcastic,0.03758800029754639,0.9624119997024536,0.9624119997024536,1,dependent
+22,Couldn't have timed that outage better.,The service went down during our product demo.,1,1,sarcastic,0.31942224502563477,0.6805777549743652,0.6805777549743652,1,dependent
+23,Good to know my time is so valuable here.,I waited nearly an hour before an agent joined.,1,1,sarcastic,0.0928792953491211,0.9071207046508789,0.9071207046508789,1,dependent
+24,I see we're redefining 'available now.',"The item is marked in stock, but checkout says unavailable.",1,0,not_sarcastic,0.5641787648200989,0.4358212351799011,0.5641787648200989,0,dependent
+25,That response answered almost none of my question.,,1,0,not_sarcastic,0.9863154143095016,0.013684585690498352,0.9863154143095016,0,independent
+26,Impressive how the fix created two new problems.,,1,1,sarcastic,0.04750359058380127,0.9524964094161987,0.9524964094161987,1,independent
+27,Bold of you to call this a solution.,,1,1,sarcastic,0.017705559730529785,0.9822944402694702,0.9822944402694702,1,independent
+28,The silence from support has been very informative.,I have not received a reply in five days.,1,0,not_sarcastic,0.7964072525501251,0.20359274744987488,0.7964072525501251,0,dependent
+29,At least the error message is consistent.,,1,1,sarcastic,0.32637614011764526,0.6736238598823547,0.6736238598823547,1,independent
+30,Your chatbot and I are becoming close friends.,The bot has repeated the same question three times.,1,0,not_sarcastic,0.7708688080310822,0.22913119196891785,0.7708688080310822,0,dependent
+31,"Well played, autocorrect. Well played.",,1,0,not_sarcastic,0.9335835427045822,0.06641645729541779,0.9335835427045822,0,independent
+32,lol yeah this app is totally ready for launch,The app crashed three times during the final test.,1,1,sarcastic,0.07310104370117188,0.9268989562988281,0.9268989562988281,1,independent
+33,"Cool cool, guess I didn't need that file anyway.",,1,0,not_sarcastic,0.9657021351158619,0.03429786488413811,0.9657021351158619,0,independent
+34,"ngl, being ignored really completes the experience",,1,1,sarcastic,0.15512531995773315,0.8448746800422668,0.8448746800422668,1,independent
+35,Sick feature: it deletes my draft 😍,,1,0,not_sarcastic,0.8662901967763901,0.13370980322360992,0.8662901967763901,0,independent
+36,"Yep, this is definitely fine 🔥",,1,0,not_sarcastic,0.8276474177837372,0.17235258221626282,0.8276474177837372,0,independent
+37,"No rush, I've only been waiting since Tuesday.",,1,0,not_sarcastic,0.6029967367649078,0.39700326323509216,0.6029967367649078,0,independent
+38,Please take your time; my issue clearly isn't urgent.,,1,1,sarcastic,0.37704533338546753,0.6229546666145325,0.6229546666145325,1,independent
+39,I'm thrilled to explain this for the fourth time.,,1,1,sarcastic,0.3154330849647522,0.6845669150352478,0.6845669150352478,1,independent
+40,Your concern for my missing package is truly touching.,,1,1,sarcastic,0.04012483358383179,0.9598751664161682,0.9598751664161682,1,independent
+41,A human agent? What a wild concept.,,1,1,sarcastic,0.1272074580192566,0.8727925419807434,0.8727925419807434,1,independent
+42,Another canned reply—how personal.,,1,1,sarcastic,0.08054137229919434,0.9194586277008057,0.9194586277008057,1,independent
+43,"Helpful as ever, I see.",The agent pasted the same instructions that already failed.,1,1,sarcastic,0.025239765644073486,0.9747602343559265,0.9747602343559265,1,dependent
+44,That explains everything.,The reply only said to contact support again.,1,0,not_sarcastic,0.6284291446208954,0.3715708553791046,0.6284291446208954,0,dependent
+45,Unexpected. Truly.,The delay notice arrived after the package was already late.,1,0,not_sarcastic,0.8140958845615387,0.1859041154384613,0.8140958845615387,0,dependent
+46,What a delight this is.,My replacement arrived with the same defect.,1,0,not_sarcastic,0.8180466294288635,0.18195337057113647,0.8180466294288635,0,dependent
+47,Very reassuring.,The status page says everything is fine during the outage.,1,1,sarcastic,0.10204142332077026,0.8979585766792297,0.8979585766792297,1,dependent
+48,Just perfect.,The app deleted the draft I had just finished.,1,0,not_sarcastic,0.5432879626750946,0.4567120373249054,0.5432879626750946,0,dependent
+49,"Sure, let's add that too.",The agent suggested opening a second ticket for the same issue.,0,1,sarcastic,0.4479066729545593,0.5520933270454407,0.5520933270454407,0,dependent
+50,Well done 🙃,The typo-filled automated reply closed my complaint.,1,0,not_sarcastic,0.9462488442659378,0.053751155734062195,0.9462488442659378,0,dependent
+51,"Thanks, that solved my problem right away.",,0,1,sarcastic,0.02055644989013672,0.9794435501098633,0.9794435501098633,0,independent
+52,The support agent was patient and helpful.,,0,0,not_sarcastic,0.7048618793487549,0.2951381206512451,0.7048618793487549,1,independent
+53,Great update—the app feels much faster now.,,0,1,sarcastic,0.24102270603179932,0.7589772939682007,0.7589772939682007,0,independent
+54,My order arrived early and in perfect condition.,,0,0,not_sarcastic,0.6300467550754547,0.3699532449245453,0.6300467550754547,1,independent
+55,I appreciate the quick response!,,0,0,not_sarcastic,0.7747901231050491,0.22520987689495087,0.7747901231050491,1,independent
+56,"That explanation was clear, thank you.",,0,0,not_sarcastic,0.671343058347702,0.328656941652298,0.671343058347702,1,independent
+57,The reset link worked on the first try.,,0,0,not_sarcastic,0.9670586474239826,0.03294135257601738,0.9670586474239826,1,independent
+58,"Nice work, the new layout is easy to use.",,0,0,not_sarcastic,0.9799391068518162,0.020060893148183823,0.9799391068518162,1,independent
+59,Really happy with the service today 😊,,0,0,not_sarcastic,0.9248555153608322,0.07514448463916779,0.9248555153608322,1,independent
+60,Everything is working again.,,0,0,not_sarcastic,0.6090184152126312,0.3909815847873688,0.6090184152126312,1,independent
+61,The refund showed up this morning.,,0,0,not_sarcastic,0.9910147320479155,0.008985267952084541,0.9910147320479155,1,independent
+62,Your chatbot found the right article for me.,,0,1,sarcastic,0.3741549253463745,0.6258450746536255,0.6258450746536255,0,independent
+63,Fast delivery and friendly updates throughout.,,0,1,sarcastic,0.2222394347190857,0.7777605652809143,0.7777605652809143,0,independent
+64,I like the new notification controls.,,0,1,sarcastic,0.37357544898986816,0.6264245510101318,0.6264245510101318,0,independent
+65,Five stars from me ⭐,,0,0,not_sarcastic,0.877173587679863,0.12282641232013702,0.877173587679863,1,independent
+66,This feature is exactly what I needed.,,0,1,sarcastic,0.19327998161315918,0.8067200183868408,0.8067200183868408,0,independent
+67,"The issue is fixed now, thanks.",,0,0,not_sarcastic,0.7593741416931152,0.24062585830688477,0.7593741416931152,1,independent
+68,Super easy checkout experience.,,0,0,not_sarcastic,0.7817218452692032,0.21827815473079681,0.7817218452692032,1,independent
+69,You made that process painless.,,0,1,sarcastic,0.30120760202407837,0.6987923979759216,0.6987923979759216,0,independent
+70,Customer care followed up as promised.,,0,1,sarcastic,0.4614749550819397,0.5385250449180603,0.5385250449180603,0,independent
+71,The app keeps freezing when I upload a photo.,,0,0,not_sarcastic,0.945191029459238,0.05480897054076195,0.945191029459238,1,independent
+72,My package still hasn't arrived.,,0,0,not_sarcastic,0.9332907944917679,0.06670920550823212,0.9332907944917679,1,independent
+73,I was charged twice and need a refund.,,0,1,sarcastic,0.4569885730743408,0.5430114269256592,0.5430114269256592,0,independent
+74,The instructions are confusing.,,0,0,not_sarcastic,0.928752638399601,0.07124736160039902,0.928752638399601,1,independent
+75,This login error is really frustrating.,,0,0,not_sarcastic,0.9861118048429489,0.013888195157051086,0.9861118048429489,1,independent
+76,I can't find the option to cancel.,,0,0,not_sarcastic,0.9290259331464767,0.07097406685352325,0.9290259331464767,1,independent
+77,The latest update drains my battery.,,0,0,not_sarcastic,0.8735359013080597,0.1264640986919403,0.8735359013080597,1,independent
+78,Support hasn't replied yet.,,0,0,not_sarcastic,0.935552328824997,0.06444767117500305,0.935552328824997,1,independent
+79,The audio quality is pretty bad.,,0,0,not_sarcastic,0.7176058292388916,0.2823941707611084,0.7176058292388916,1,independent
+80,My saved messages disappeared.,,0,0,not_sarcastic,0.9505003541707993,0.049499645829200745,0.9505003541707993,1,independent
+81,Please stop sending promotional notifications.,,0,0,not_sarcastic,0.7716980278491974,0.2283019721508026,0.7716980278491974,1,independent
+82,The replacement item is also damaged.,,0,0,not_sarcastic,0.8803347274661064,0.11966527253389359,0.8803347274661064,1,independent
+83,I'm disappointed with how this was handled.,,0,0,not_sarcastic,0.8869996219873428,0.11300037801265717,0.8869996219873428,1,independent
+84,The page takes too long to load.,,0,0,not_sarcastic,0.9050454422831535,0.09495455771684647,0.9050454422831535,1,independent
+85,I need help accessing my account.,The sign-in page keeps rejecting my verified email.,0,0,not_sarcastic,0.9183891713619232,0.08161082863807678,0.9183891713619232,1,dependent
+86,Can someone check the status of ticket 482?,An agent said the billing request is still being reviewed.,0,0,not_sarcastic,0.8678101301193237,0.13218986988067627,0.8678101301193237,1,dependent
+87,Please update my shipping address.,I entered my old address before moving last week.,0,0,not_sarcastic,0.956740066409111,0.04325993359088898,0.956740066409111,1,dependent
+88,Could you resend the confirmation email?,The first confirmation message never reached my inbox.,0,0,not_sarcastic,0.9016475155949593,0.09835248440504074,0.9016475155949593,1,dependent
+89,Is live chat available today?,I would rather speak with an agent than use the FAQ.,0,0,not_sarcastic,0.8776043206453323,0.12239567935466766,0.8776043206453323,1,dependent
+90,How do I turn off auto-renewal?,I no longer use the service.,0,0,not_sarcastic,0.8369752168655396,0.16302478313446045,0.8369752168655396,1,dependent
+91,"hey, can u help me reset this?",,0,1,sarcastic,0.3753296732902527,0.6246703267097473,0.6246703267097473,0,independent
+92,"yep, got it working now 👍",,0,0,not_sarcastic,0.8821779265999794,0.1178220734000206,0.8821779265999794,1,independent
+93,idk where my receipt went,,0,0,not_sarcastic,0.8849627375602722,0.11503726243972778,0.8849627375602722,1,independent
+94,all good here!,,0,0,not_sarcastic,0.8815189898014069,0.11848101019859314,0.8815189898014069,1,independent
+95,"Okay, I'll try those steps now.",The agent listed three troubleshooting steps.,0,0,not_sarcastic,0.9636230356991291,0.036376964300870895,0.9636230356991291,1,dependent
+96,That plan works for me.,Support proposed a call tomorrow afternoon.,0,0,not_sarcastic,0.5488490760326385,0.45115092396736145,0.5488490760326385,1,dependent
+97,Understood; I'll wait for the update.,The agent said the update should arrive by Friday.,0,0,not_sarcastic,0.982887402176857,0.017112597823143005,0.982887402176857,1,dependent
+98,"Noted, thanks.",The agent confirmed that my request was received.,0,0,not_sarcastic,0.9925834028981626,0.007416597101837397,0.9925834028981626,1,dependent
+99,That's fine with me.,Support offered to replace the item at no charge.,0,0,not_sarcastic,0.9583956263959408,0.04160437360405922,0.9583956263959408,1,dependent
+100,"No worries, take your time.",The agent apologized and asked for another day.,0,0,not_sarcastic,0.9811007510870695,0.01889924891293049,0.9811007510870695,1,dependent

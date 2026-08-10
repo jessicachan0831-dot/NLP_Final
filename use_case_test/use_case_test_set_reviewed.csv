@@ -1,0 +1,101 @@
+id,text,generated_label,generated_label_name,use_case_category,review_status,final_label,reviewer_notes,context,context_dependency
+1,"Oh great, another app update that logs me out.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+2,Love waiting forty minutes for a two-minute support chat.,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+3,"Perfect, the checkout crashed right after I entered everything.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+4,Amazing service—you canceled my order twice. 👏,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+5,Exactly what I needed today: another password reset.,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+6,"Nice, the bot sent me the same useless link again.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+7,"Wow, charging me twice was super helpful.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+8,"Fantastic, my delivery is only three days late.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+9,"Sure, because restarting it for the fifth time will fix everything.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+10,Thanks for closing my ticket without solving it 🙂,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+11,Could this website be any faster? I almost saw it load.,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+12,Great job hiding the unsubscribe button.,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+13,Nothing says convenience like verifying my identity six times.,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+14,Love that 'instant refund' apparently means next month.,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+15,"Brilliant idea, send the replacement to the wrong address too.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+16,"Ten out of ten, would enjoy this error message again.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+17,"Yay, another notification I can't turn off!",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+18,"Awesome, the coupon expired while your page was frozen.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+19,Super clear instructions—if the goal was confusion.,1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+20,"Thanks, I definitely wanted to repeat my whole story.",1,sarcastic,obvious_sarcasm,reviewed,1,,,independent
+21,"Well, that went smoothly.",1,sarcastic,subtle_sarcasm,reviewed,1,Context added to clarify provisional label.,The checkout froze just before the payment confirmation.,dependent
+22,Couldn't have timed that outage better.,1,sarcastic,subtle_sarcasm,reviewed,1,Context added to clarify provisional label.,The service went down during our product demo.,dependent
+23,Good to know my time is so valuable here.,1,sarcastic,subtle_sarcasm,reviewed,1,Context added to clarify provisional label.,I waited nearly an hour before an agent joined.,dependent
+24,I see we're redefining 'available now.',1,sarcastic,subtle_sarcasm,reviewed,1,Context added to clarify provisional label.,"The item is marked in stock, but checkout says unavailable.",dependent
+25,That response answered almost none of my question.,1,sarcastic,subtle_sarcasm,reviewed,1,,,independent
+26,Impressive how the fix created two new problems.,1,sarcastic,subtle_sarcasm,reviewed,1,,,independent
+27,Bold of you to call this a solution.,1,sarcastic,subtle_sarcasm,reviewed,1,,,independent
+28,The silence from support has been very informative.,1,sarcastic,subtle_sarcasm,reviewed,1,Context added to clarify provisional label.,I have not received a reply in five days.,dependent
+29,At least the error message is consistent.,1,sarcastic,subtle_sarcasm,reviewed,1,,,independent
+30,Your chatbot and I are becoming close friends.,1,sarcastic,subtle_sarcasm,reviewed,1,Context added to clarify provisional label.,The bot has repeated the same question three times.,dependent
+31,"Well played, autocorrect. Well played.",1,sarcastic,informal_sarcasm,reviewed,1,,,independent
+32,lol yeah this app is totally ready for launch,1,sarcastic,informal_sarcasm,reviewed,1,Context added to clarify provisional label.,The app crashed three times during the final test.,independent
+33,"Cool cool, guess I didn't need that file anyway.",1,sarcastic,informal_sarcasm,reviewed,1,,,independent
+34,"ngl, being ignored really completes the experience",1,sarcastic,informal_sarcasm,reviewed,1,,,independent
+35,Sick feature: it deletes my draft 😍,1,sarcastic,informal_sarcasm,reviewed,1,,,independent
+36,"Yep, this is definitely fine 🔥",1,sarcastic,informal_sarcasm,reviewed,1,,,independent
+37,"No rush, I've only been waiting since Tuesday.",1,sarcastic,customer_service_sarcasm,reviewed,1,,,independent
+38,Please take your time; my issue clearly isn't urgent.,1,sarcastic,customer_service_sarcasm,reviewed,1,,,independent
+39,I'm thrilled to explain this for the fourth time.,1,sarcastic,customer_service_sarcasm,reviewed,1,,,independent
+40,Your concern for my missing package is truly touching.,1,sarcastic,customer_service_sarcasm,reviewed,1,,,independent
+41,A human agent? What a wild concept.,1,sarcastic,customer_service_sarcasm,reviewed,1,,,independent
+42,Another canned reply—how personal.,1,sarcastic,customer_service_sarcasm,reviewed,1,,,independent
+43,"Helpful as ever, I see.",1,sarcastic,ambiguous_short,reviewed,1,Context added to clarify provisional label.,The agent pasted the same instructions that already failed.,dependent
+44,That explains everything.,1,sarcastic,ambiguous_short,reviewed,1,Context added to clarify provisional label.,The reply only said to contact support again.,dependent
+45,Unexpected. Truly.,1,sarcastic,ambiguous_short,reviewed,1,Context added to clarify provisional label.,The delay notice arrived after the package was already late.,dependent
+46,What a delight this is.,1,sarcastic,ambiguous_short,reviewed,1,Context added to clarify provisional label.,My replacement arrived with the same defect.,dependent
+47,Very reassuring.,1,sarcastic,ambiguous_short,reviewed,1,Context added to clarify provisional label.,The status page says everything is fine during the outage.,dependent
+48,Just perfect.,1,sarcastic,ambiguous_short,reviewed,1,Context added to clarify provisional label.,The app deleted the draft I had just finished.,dependent
+49,"Sure, let's add that too.",1,sarcastic,ambiguous_short,reviewed,0,Context added to clarify provisional label.,The agent suggested opening a second ticket for the same issue.,dependent
+50,Well done 🙃,1,sarcastic,ambiguous_short,reviewed,1,Context added to clarify provisional label.,The typo-filled automated reply closed my complaint.,dependent
+51,"Thanks, that solved my problem right away.",0,not_sarcastic,normal_positive,reviewed,0,,,independent
+52,The support agent was patient and helpful.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+53,Great update—the app feels much faster now.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+54,My order arrived early and in perfect condition.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+55,I appreciate the quick response!,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+56,"That explanation was clear, thank you.",0,not_sarcastic,normal_positive,reviewed,0,,,independent
+57,The reset link worked on the first try.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+58,"Nice work, the new layout is easy to use.",0,not_sarcastic,normal_positive,reviewed,0,,,independent
+59,Really happy with the service today 😊,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+60,Everything is working again.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+61,The refund showed up this morning.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+62,Your chatbot found the right article for me.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+63,Fast delivery and friendly updates throughout.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+64,I like the new notification controls.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+65,Five stars from me ⭐,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+66,This feature is exactly what I needed.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+67,"The issue is fixed now, thanks.",0,not_sarcastic,normal_positive,reviewed,0,,,independent
+68,Super easy checkout experience.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+69,You made that process painless.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+70,Customer care followed up as promised.,0,not_sarcastic,normal_positive,reviewed,0,,,independent
+71,The app keeps freezing when I upload a photo.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+72,My package still hasn't arrived.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+73,I was charged twice and need a refund.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+74,The instructions are confusing.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+75,This login error is really frustrating.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+76,I can't find the option to cancel.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+77,The latest update drains my battery.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+78,Support hasn't replied yet.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+79,The audio quality is pretty bad.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+80,My saved messages disappeared.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+81,Please stop sending promotional notifications.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+82,The replacement item is also damaged.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+83,I'm disappointed with how this was handled.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+84,The page takes too long to load.,0,not_sarcastic,normal_negative,reviewed,0,,,independent
+85,I need help accessing my account.,0,not_sarcastic,customer_service_request,reviewed,0,Context added to clarify provisional label.,The sign-in page keeps rejecting my verified email.,dependent
+86,Can someone check the status of ticket 482?,0,not_sarcastic,customer_service_request,reviewed,0,Context added to clarify provisional label.,An agent said the billing request is still being reviewed.,dependent
+87,Please update my shipping address.,0,not_sarcastic,customer_service_request,reviewed,0,Context added to clarify provisional label.,I entered my old address before moving last week.,dependent
+88,Could you resend the confirmation email?,0,not_sarcastic,customer_service_request,reviewed,0,Context added to clarify provisional label.,The first confirmation message never reached my inbox.,dependent
+89,Is live chat available today?,0,not_sarcastic,customer_service_request,reviewed,0,Context added to clarify provisional label.,I would rather speak with an agent than use the FAQ.,dependent
+90,How do I turn off auto-renewal?,0,not_sarcastic,customer_service_request,reviewed,0,Context added to clarify provisional label.,I no longer use the service.,dependent
+91,"hey, can u help me reset this?",0,not_sarcastic,informal_neutral,reviewed,0,,,independent
+92,"yep, got it working now 👍",0,not_sarcastic,informal_positive,reviewed,0,,,independent
+93,idk where my receipt went,0,not_sarcastic,informal_negative,reviewed,0,,,independent
+94,all good here!,0,not_sarcastic,informal_positive,reviewed,0,,,independent
+95,"Okay, I'll try those steps now.",0,not_sarcastic,ambiguous_short,reviewed,0,Context added to clarify provisional label.,The agent listed three troubleshooting steps.,dependent
+96,That plan works for me.,0,not_sarcastic,ambiguous_short,reviewed,0,Context added to clarify provisional label.,Support proposed a call tomorrow afternoon.,dependent
+97,Understood; I'll wait for the update.,0,not_sarcastic,ambiguous_short,reviewed,0,Context added to clarify provisional label.,The agent said the update should arrive by Friday.,dependent
+98,"Noted, thanks.",0,not_sarcastic,ambiguous_short,reviewed,0,Context added to clarify provisional label.,The agent confirmed that my request was received.,dependent
+99,That's fine with me.,0,not_sarcastic,ambiguous_short,reviewed,0,Context added to clarify provisional label.,Support offered to replace the item at no charge.,dependent
+100,"No worries, take your time.",0,not_sarcastic,ambiguous_short,reviewed,0,Context added to clarify provisional label.,The agent apologized and asked for another day.,dependent
